@@ -5,3 +5,4 @@
 //TODO  https://www.khanacademy.org/computing/code-org/computers-and-the-internet/internet-works/v/the-internet-packet-routers-and-reliability?modal=1
 
 // Ru sources
+//TODO https://www.youtube.com/watch?v=t2NMbSarXC4
