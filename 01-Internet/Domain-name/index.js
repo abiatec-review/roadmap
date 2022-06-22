@@ -3,3 +3,4 @@
 //TODO  https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/
 
 // Ru sources
+//TODO https://www.youtube.com/watch?v=70VnuTXi4Wk&t=779s
