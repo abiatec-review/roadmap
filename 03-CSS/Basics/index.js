@@ -1,1 +1,9 @@
-// TODO https://www.youtube.com/watch?v=FqmB-Zj2-PA
+// TODO https://youtu.be/FqmB-Zj2-PA?t=1293
+// TODO https://youtu.be/FqmB-Zj2-PA?t=1486
+// TODO https://youtu.be/FqmB-Zj2-PA?t=1966
+// TODO https://youtu.be/FqmB-Zj2-PA?t=3375
+// TODO https://youtu.be/FqmB-Zj2-PA?t=6835
+// TODO https://youtu.be/FqmB-Zj2-PA?t=8065
+// TODO https://youtu.be/FqmB-Zj2-PA?t=9398
+// TODO https://youtu.be/FqmB-Zj2-PA?t=10661
+// TODO https://youtu.be/FqmB-Zj2-PA?t=11642

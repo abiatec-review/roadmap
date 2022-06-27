@@ -1,5 +1,2 @@
 // Ru sources
-// TODO https://www.html5rocks.com/ru/tutorials/internals/howbrowserswork/
-
-// Eng sources:
-// TODO https://www.browserstack.com/guide/browser-rendering-engine
+// TODO https://developer.mozilla.org/ru/docs/Web/Performance/How_browsers_work
