@@ -5,7 +5,6 @@
 // обработать ошибки используя Error boundary
 //https://valtikamore.github.io/counter/
 
-
 // переписать счётчик на mobX
 
 // redux toolkit + redux saga / thunk(createAsyncThunk), tailwind
