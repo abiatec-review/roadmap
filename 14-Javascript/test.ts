@@ -146,3 +146,66 @@ const tree = {
 
 // Task 22
 // Реализуйте функцию isSorted(), которая возвращает true или false в зависимости о того, отсортирован ли переданный ей числовой массив.
+
+// Task 23
+// Переписать код используя fetch + async / await
+
+// const request = (url, success, error) => {
+//     const xhr = new XMLHttpRequest();
+//     xhr.open('GET', url);
+//     xhr.onload = () => {
+//       xhr.status === 200 ? success(xhr.response) : error(xhr.statusText);
+//     }
+//     xhr.onerror = () => error(xhr.statusText);
+//     xhr.send();
+//   }
+// <div onClick={request('http://some=api', () => {}, () => {})}/>
+
+// Task 24
+// написать функцию , которая будет принимать массив обьект со ссылками {cats: 'https://cat-fact.herokuapp.com/facts', verses: 'https://www.abibliadigital.com.br/api/verses/nvi/sl/23' }
+// и возвращать массив объектов , формата ниже. Делаем запрос за кошками, добавляем в каждый обёект поле verses из второй API
+// {
+// "status": {
+// "verified": true,
+// "feedback": "",
+// "sentCount": 1
+// },
+// "_id": "5887e1d85c873e0011036889",
+// "user": "5a9ac18c7478810ea6c06381",
+// "text": "Cats make about 100 different sounds. Dogs make only about 10.",
+// "__v": 0,
+// "source": "user",
+// "updatedAt": "2020-09-03T16:39:39.578Z",
+// "type": "cat",
+// "createdAt": "2018-01-15T21:20:00.003Z",
+// "deleted": false,
+// "used": true
+//verses": [
+//  {
+// "number": 1,
+// "text": "O Senhor é o meu pastor; de nada terei falta."
+// },
+// {
+// "number": 2,
+// "text": "Em verdes pastagens me faz repousar e me conduz a águas tranqüilas;"
+// },
+// {
+// "number": 3,
+// "text": "restaura-me o vigor. Guia-me nas veredas da justiça por amor do seu nome."
+// },
+// {
+// "number": 4,
+// "text": "Mesmo quando eu andar por um vale de trevas e morte, não temerei perigo algum, pois tu estás comigo; a tua vara e o teu cajado me protegem."
+// },
+// {
+// "number": 5,
+// "text": "Preparas um banquete para mim à vista dos meus inimigos. Tu me honras, ungindo a minha cabeça com óleo e fazendo transbordar o meu cálice."
+// },
+// {
+// "number": 6,
+// "text": "Sei que a bondade e a fidelidade me acompanharão todos os dias da minha vida, e voltarei à casa do Senhor enquanto eu viver."
+// }
+// ]
+// },
+
+
