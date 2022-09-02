@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc99c7b8-2959-43a5-b4a8-3b577bc11195" name="Default Changelist" comment="add gh-pages link">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend/package.json" afterDir="false" />
@@ -14,6 +16,16 @@
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend/src/reportWebVitals.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/chat/client" beforeDir="false" afterPath="$PROJECT_DIR$/11-Web-sockets/results/chat/client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/chat/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/11-Web-sockets/results/chat/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/chat/client/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/chat/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/11-Web-sockets/results/chat/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/chat/client/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/chat/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/11-Web-sockets/results/chat/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/chat/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/11-Web-sockets/results/chat/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/chat/client/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/chat/client/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/chat/client/src/setupTests.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/real-time/client" beforeDir="false" afterPath="$PROJECT_DIR$/11-Web-sockets/results/real-time/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/real-time/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/11-Web-sockets/results/real-time/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/real-time/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/11-Web-sockets/results/real-time/client/package.json" afterDir="false" />
@@ -49,14 +61,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/ryzenpc/ilyawork/testgit",
+    "nodejs_package_manager_path": "yarn",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/14-Javascript/results" />
@@ -75,6 +87,8 @@
       <workItem from="1659085960072" duration="495000" />
       <workItem from="1659950041087" duration="1653000" />
       <workItem from="1660031038539" duration="599000" />
+      <workItem from="1661936864885" duration="108000" />
+      <workItem from="1662022309685" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="add gh-pages link">
       <created>1659086389366</created>
@@ -99,7 +113,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add gh-pages link" />
