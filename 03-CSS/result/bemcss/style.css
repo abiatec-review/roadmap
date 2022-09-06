@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+}
+
+.body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.header {
+    background: #262626;
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    z-index: 11;
+    top: 0
+}
+.header__log {
+    display: inline-block;
+    height: 18px;
+    width: 152px;
+    background: url(https://public-assets.envato-static.com/assets/logos/envato_market-a5ace93f8482e885ae008eb481b9451d379599dfed24868e52b6b2d66f5cf633.svg);
+    background-size: 152px 18px;
+    margin-left: 20px;
+}
+.header__button {
+    background-color: #82b440;
+    font-size: 14px;
+    padding: 5px 20px;
+    box-shadow: 0 2px 0 #6f9a37;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    float: right;
+    margin-right: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    background-image: url(https://demo.quomodosoft.com/wp-content/uploads/2022/05/Header-background.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    margin-top: 70px;
+}
+.navigation__logo {
+    max-width: 100%;
+    min-width: 100px;
+}
+.navigation__nav {
+    display: flex;
+    color: white;
+    font-family: "Poppins", Sans-serif, serif;
+    font-size: 18px;
+    line-height: 53px;
+}
+.nav__item {
+    margin-right: 15px;
+    cursor: pointer;
+}
+.navigation__buttons {
+    display: flex;
+}
+.navigation__button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF40;
+    border-radius: 4px 4px 4px 4px;
+    font-family: "Poppins", Sans-serif, serif;
+    color: #fff;
+    text-align: center;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.navigation__button:hover {
+    border-color: #F2C94C;
+    color: #F2C94C;
+}
+.navigation__button-text {
+    margin-left: 10px;
+}
+.navigation__button_gold {
+    background: #F2C94C;
+    color: black;
+}
+.navigation__button_gold:hover {
+    color: white
+}
+.navigation__menu {
+    display: none;
+
+    align-items: center;justify-content: center;
+    border-radius: 3px;
+    background-color: red;
+    padding: 20px 0;
+    margin-top: 3px;
+    background-color: rgba(0,0,0,.05);
+    width: 95%;
+    cursor: pointer;
+}
+.navigation__menu-icon div{
+    width: 30px;
+    height: 5px;
+    background: black;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 160px;
+}
+.intro__text {
+    max-width: 1140px;
+    text-align: center;
+    color: #FFF;
+    font-family: "Poppins", Sans-serif, serif;
+    font-size: 76px;
+    font-weight: 700;
+}
+.intro__stats-block {
+    display: flex;
+    margin-top: 20px;
+}
+.stats-block__item {
+    display: flex;
+    font-family: "Poppins", Sans-serif, serif;
+    flex-direction: column;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+    margin-right: 40px;
+}
+.stats-block__item_gold {
+    color: #F2C94C;
+}
+.stats-block__item_pink {
+    color: #EF5DA8;
+}
+.stats-block__item_red {
+    color: #F54748;
+}
+.stats-block__item-span2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.intro__images {
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 160px;
+    justify-content: space-around;
+}
+.intro__images-block {
+    width: 100%;
+
+    border-radius: 16px 16px 16px 16px;
+    box-shadow: 0 20px 70px 0 rgb(0 0 0 / 20%);
+
+}
+.intro__images-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin: 0 20px;
+}
+.intro__images-center {
+    width: 50%;
+    margin: 0 10px;
+}
+
+.app-list {
+    width: 100%;
+    background-image: url(https://demo.quomodosoft.com/wp-content/uploads/2022/05/section-2-background.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.app-list__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-subtext {
+    color: #F54748;
+    font-family: "Roboto",Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.header-text {
+    color: #2E2E2E;
+    font-family: "Roboto",Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    text-align: center;
+}
+.app-list__layouts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+.app-list__layout {
+    width: max-content;
+    height: 400px;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;;
+}
+.app-list__layouts-wrapper {
+    max-width: 1130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.app-list__layout {
+    border: 5px solid white;
+    border-radius: 20px;
+}
+.layout-new-block {
+    position: relative;
+    width: 33%;
+
+}
+.app-list__layout-div {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.app-list__layout-new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F2C94C;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.black-block {
+    width: 100%;
+    background-image: url(https://demo.quomodosoft.com/wp-content/uploads/2022/05/BG.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.black-block__preheader {
+    color: #F54748;
+    font-family: "Roboto",Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 120px 0 20px 0;
+}
+.black-block__header {
+    color: #FFF;
+    font-family: "Roboto",Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 74px;
+    max-width: 1130px;
+    text-align: center;
+}
+.black-block__header span {
+    color: #2095F3
+}
+.black-block__image {
+    margin-top: 70px;
+    width: 90%;
+    max-width: 1240px;
+}
+
+.features {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.features__header span {
+    color: #2095F3;
+}
+.features__preheader {
+    margin: 100px 0 20px 0;
+}
+.features__block {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 75%;
+}
+.feature {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    width: 22%;
+}
+.feature__img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+.feature__header {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 48px;
+    font-family: "Roboto",Sans-serif;
+}
+.feature__desc {
+    color: #4F5562;
+    font-family: "Roboto",Sans-serif;
+    text-align: left;
+    line-height: 22px;
+}
+
+.footer {
+    width: 100%;
+
+    background-image: url(https://demo.quomodosoft.com/wp-content/uploads/2022/05/BG-2.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 130px 0;
+}
+.footer__header {
+    color: #FFF;
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 105px;
+    text-align: center;
+    margin: 10px 0;
+}
+@media screen and (max-width: 1350px){
+    .navigation__button_support {
+        display: none;
+    }
+    .navigation {
+        padding-top: 10px;
+    }
+    .navigation__button {
+        padding: 10px;
+    }
+    .navigation__nav {
+        font-size: 16px;
+    }
+    .nav__item {
+        margin-right: 5px;
+    }
+
+}
+@media screen and (max-width: 1000px){
+    .navigation__button_docs {
+        display: none;
+    }
+
+    .intro {
+        padding-top: 40px;
+    }
+    .intro__text {
+        max-width: 650px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .stats-block__item {
+        font-size: 34px;
+        line-height: 16px;
+    }
+
+    .stats-block__item-span2 {
+        font-size: 16px;
+    }
+
+    .intro__images {
+       top: 70px
+    }
+    .layout-new-block {
+        width: 100%;
+    }
+    .app-list__layouts {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 90%;
+    }
+    .app-list__layout {
+
+        height: 280px;
+    }
+    .app-list__layout-img {
+        width: 100%;
+    }
+    .app-list__layout{
+        width: 90%;
+    }
+    .app-list__layouts-wrapper {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .features__block {
+        width: 95%;
+    }
+    .feature {
+        width: 45%;
+    }
+
+
+}
+@media screen and (max-width: 768px){
+    .navigation__nav {
+        display: none;
+    }
+    .navigation {
+        flex-direction: column;
+    }
+    .navigation__logo {
+        padding: 10px;
+    }
+    .navigation__buttons {
+        width: 100%;
+    }
+    .navigation__button_gold {
+        width: 100%;
+        margin: 0 10px;
+        align-items: center;
+    }
+    .navigation__menu {
+        display: flex;
+    }
+    .intro {
+        padding: 0 5px;
+    }
+    .intro__images {
+        flex-direction: column;
+    }
+    .intro__images-wrapper {
+        width: auto;
+    }
+    .intro__images-center {
+        margin: 20px;
+        width: auto;
+    }
+
+    .app-list__header-text {
+        font-size: 40px;
+    }
+
+    .app-list {
+        padding-top: 100px;
+    }
+    .stats-block__item {
+        margin-right: 16px;
+    }
+
+    .header-subtext {
+        margin-top: 60px;
+    }
+    .header-text {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .feature {
+        width: 100%;
+    }
+    .footer {
+        padding: 40px 10px;
+    }
+    .footer__header {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .footer__button {
+        width: auto;
+    }
+    .footer__log {
+        width: 100%;
+    }
+    .black-block {
+        padding: 0 10px;
+    }
+}
