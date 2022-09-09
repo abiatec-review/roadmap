@@ -6,6 +6,7 @@ import './app.scss'
 import InfoTip from "./components/InfoTip";
 import FolderOpenOutlinedIcon from '@mui/icons-material/FolderOpenOutlined';
 import EmojiObjectsOutlinedIcon from '@mui/icons-material/EmojiObjectsOutlined';
+import {OrdersChart} from "./components/OrdersChart";
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,7 @@ function App() {
                     desc={'Ideas'}
                     icon={<EmojiObjectsOutlinedIcon/>}
                 />
+                <OrdersChart />
             </div>
         </div>
 
