@@ -1,0 +1,59 @@
+.notifications-menu {
+  padding: 0;
+
+  .menu-list {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header {
+    font-size: 18px;
+  }
+
+  .not {
+    padding: 10px;
+    .not-avatar {
+      margin-right: 10px;
+    }
+    .not-text {
+      font-size: 14px;
+      color: rgb(71, 82, 89);
+    }
+    .not-name {
+      color: #7352C7;
+    }
+    .not-icon-block {
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+    }
+    .not-icon {
+      margin-right: 5px;
+    }
+    .not-time {
+      margin-left: 10px;
+      font-size: 13px;
+      color: rgb(133, 149, 166);
+    }
+  }
+
+  .btn-block {
+    text-align: center;
+    button {
+      font-size: 12px;
+    }
+  }
+}
+
+.notification-icon {
+  &.css-mf1cb5-MuiButtonBase-root-MuiIconButton-root {
+    background: white;
+  }
+  box-shadow: rgb(0 0 0 / 9%) 0px 5px 10px;
+  width: 40px;
+  height: 40px;
+  svg {
+    width: 18px;
+  }
+}

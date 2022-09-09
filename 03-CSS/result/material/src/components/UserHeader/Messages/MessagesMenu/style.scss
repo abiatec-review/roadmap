@@ -1,0 +1,41 @@
+.messages-menu {
+  padding: 0;
+  font-family: NoirPro, Arial, serif;
+  font-weight: 400;
+  .menu-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+    .header {
+      font-size: 18px;
+      margin-right: 100px;
+    }
+    .afterheader {
+      color: rgb(133, 149, 166);
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  }
+
+  .search-block {
+    margin: 10px 0;
+    padding: 0 16px;
+  }
+
+  .mess {
+    .mess-icon {
+      margin-right: 10px;
+    }
+    .mess-info {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 220px;
+      color: rgb(133, 149, 166);
+      font-size: 14px;
+    }
+  }
+
+  .btn-block {
+    text-align: center;
+  }
+}

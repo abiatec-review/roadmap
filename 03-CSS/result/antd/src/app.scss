@@ -1,0 +1,7 @@
+@import "src/assets/styles/constants";
+
+.ant-back-top {
+  @media screen and (max-width: $tablet){
+    right: 60px ;
+  }
+}

@@ -1,0 +1,198 @@
+@import "src/assets/styles/constants";
+
+.video-block {
+  padding-top: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to bottom, #f1f1f1, #f4f4f4, #f8f8f8, #fbfbfb, #ffffff);
+  @media screen and (max-width: $desktop){
+    flex-direction: column-reverse;
+  }
+
+  .info-block {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+    @media screen and (max-width: $desktop){
+      width: 95%;
+    }
+
+    h2 {
+      font-weight: 600;
+      font-style: normal;
+      line-height: 1.3;
+      margin: 0 0 10px;
+      color: #202124;
+      font-size: 36px;
+      @media screen and (max-width: $tablet){
+        font-size: 22px;
+        margin-top: 15px;
+      }
+    }
+
+    & > span {
+      font-family: 'NoirPro', sans-serif;
+      color: #828286;
+      text-rendering: auto;
+      font-size: 18px;
+      margin: 5px 0 15px 0;
+      @media screen and (max-width: $tablet){
+        font-size: 14px;
+      }
+    }
+
+    img {
+      max-width: 262px;
+    }
+
+    .price {
+      display: flex;
+      align-items: center;
+      margin: 20px 0 10px 0;
+      .price-num {
+        color: #202124;
+        font-size: 36px;
+        font-weight:600;
+        margin-right: 20px;
+
+      }
+      .stars {
+        color: #f7b837
+      }
+      .review {
+        font-size: 14px;
+        font-weight: 300;
+        color: #949494;
+        margin-left: 5px;
+      }
+      .downloads {
+        padding: 0 10px;
+        border-left: solid 1px #CDCDCD;
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #949494;
+        .svg {
+          color: rgb(207, 63, 9);
+          margin: 0 10px;
+        }
+      }
+    }
+    .buttons {
+      .first-btn{
+        border: solid 2px rgb(207, 63, 9);
+        background-color: rgb(232, 92, 39);
+        height: 57px;
+        padding: 13px 30px;
+        font-size: 18px;
+        box-shadow: 0px 9px 21px 0px rgb(232 92 39 / 34%);
+        margin-right: 15px;
+
+        &:hover {
+          box-shadow: none;
+        }
+
+        @media screen and (max-width: $tablet){
+          height: 39px;
+          padding: 0px 14px;
+          font-size: 14px;
+        }
+
+      }
+      .second-btn {
+        color: rgb(207, 63, 9);
+        border: solid 2px rgb(207, 63, 9);
+        height: 57px;
+        font-size: 18px;
+        padding: 13px 30px;
+        margin-right: 15px;
+
+        &:hover {
+          background: #e85c27;
+          color: white;
+        }
+        @media screen and (max-width: $tablet){
+          height: 39px;
+          padding: 0px 14px;
+          font-size: 14px;
+        }
+      }
+      .third-btn {
+        height: 57px;
+        font-size: 18px;
+        padding: 13px 30px;
+        @media screen and (max-width: $tablet){
+          height: 39px;
+          padding: 0px 14px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .video {
+    position: relative;
+    width: 55%;
+
+    @media screen and (max-width: $desktop){
+      width: 95%;
+    }
+
+    img {
+      width: 100%;
+      max-width: 1200px;
+    }
+    .modal {
+      width: 600px;
+
+
+    }
+    .play {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 22px;
+      left: calc(50% - 72px);
+      top: calc(50% - 72px);
+      width: 135px;
+      height: 135px;
+      cursor: pointer;
+      background: url('https://g-axon.com/wp-content/themes/twentysixteen-child/images/video-icon-bg.png') no-repeat center center;
+
+      @media screen and (max-width: $tablet){
+        width: 70px;
+        height: 70px;
+        background-size: cover;
+        font-size: 12px;
+        left: calc(50% - 28px);
+        top: calc(50% - 28px);
+      }
+    }
+    .site-dots-list {
+      display: flex;
+      padding: 10px 10px;
+      border-radius: 10px 0 0 0;
+      box-shadow: 0 1px 3px 2px rgb(0 0 0 / 6%);
+      div {
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        margin-right: 5px;
+      }
+      .first {
+        background: red;
+      }
+      .second {
+        background: gold;
+      }
+      .third {
+        background: green;
+      }
+    }
+  }
+}

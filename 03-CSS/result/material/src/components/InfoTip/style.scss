@@ -1,0 +1,33 @@
+.infotip {
+  display: flex;
+  background: #d8bcef;
+  width: 15%;
+  min-width: 200px;
+  border-radius: 12px;
+  position: relative;
+  padding: 30px 0 30px 70px;
+  overflow: hidden;
+  margin-left: 120px;
+  .img {
+    background: white;
+    padding: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -42px;
+    outline: rgba(255, 255, 255, 0.2) solid 10px;
+    svg {
+      position: relative;
+      left: 20px;
+      font-size: 33px;
+    }
+  }
+  .text {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-left: 15px;
+    div:nth-child(1) {
+      margin-bottom: 5px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.header-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 25px;
+  background: #262626;
+  img {
+    max-width: 152px;
+  }
+  .btn {
+    background: #6f9a37;
+    text-transform: none;
+    &:hover {
+      background: #4f830a;
+    }
+  }
+}

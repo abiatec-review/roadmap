@@ -1,0 +1,89 @@
+@import "src/assets/styles/constants";
+
+.prefooter {
+  width: 100%;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 90px;
+  overflow: hidden;
+  @media screen and (max-width: $tablet){
+    padding: 30px;
+  }
+  img {
+    object-fit: contain;
+    position: absolute;
+  }
+
+  .first-img {
+    left: 0;
+    top: 45%;
+    @media screen and (max-width: $tablet){
+      display: none
+    }
+  }
+  .sec-img {
+    right: 0;
+    top: 10%;
+
+    @media screen and (max-width: $tablet){
+      display: none
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .input-group {
+      @media screen and (max-width: $tablet){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    h2 {
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 1.25;
+      text-align: center;
+      max-width: 650px;
+      color: #202124;
+      margin: 10px 0 30px 0;
+
+      @media screen and (max-width: $tablet){
+        font-size: 24px;
+      }
+    }
+
+    .input {
+      padding: 16px 30px;
+      width: calc(100% - 200px);
+      border-radius: 10px 0 0 10px;
+
+      @media screen and (max-width: $tablet){
+        padding: 10px 20px;
+        width: 100%;
+        border-radius: 10px
+      }
+    }
+    .btn {
+      padding: 16px 30px;
+      height: 56px;
+      background: #e85c27;
+      color: white;
+      border: 1px solid #e85c27;
+      border-radius: 0 10px 10px 0;
+
+      @media screen and (max-width: $tablet){
+        height: 38px;
+        padding: 0 30px;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+    }
+  }
+}

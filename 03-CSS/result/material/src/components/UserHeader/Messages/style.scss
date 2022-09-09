@@ -1,0 +1,36 @@
+.message-menu {
+  .message-icon {
+    svg {
+      width: 18px;
+    }
+    width: 40px;
+    height: 40px;
+    box-shadow: rgb(0 0 0 / 9%) 0px 5px 10px;
+    &.css-mf1cb5-MuiButtonBase-root-MuiIconButton-root {
+      background: white;
+    }
+  }
+}
+.messages-menu {
+  padding: 19px 24px;
+  font-family: NoirPro, Arial, serif;
+  font-weight: 400;
+  .menu-list {
+    display: flex;
+    .header {
+      font-size: 18px;
+      margin-right: 100px;
+    }
+    .afterheader {
+      color: rgb(133, 149, 166);
+      font-size: 14px;
+      margin-top: 5px;
+    }
+
+    
+  }
+
+  .search-block {
+    margin: 20px 0;
+  }
+}

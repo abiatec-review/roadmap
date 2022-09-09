@@ -1,0 +1,118 @@
+@import "src/assets/styles/constants";
+
+.footer {
+  width: 100%;
+  background-color: #202124;
+  color: #949494;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+
+  @media screen and (max-width: $tablet){
+    font-size: 14px;
+    text-align: center;
+  }
+
+  a, h5 {
+    color: #949494;
+    margin-top: 8px;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+  .logo {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: $tablet){
+      flex-direction: column;
+      align-items: center;
+    }
+    img {
+      @media screen and (max-width: $tablet){
+        max-width: 185px;
+      }
+    }
+    .svg {
+      color: white;
+      margin-right: 10px;
+
+      @media screen and (max-width: $tablet){
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .info-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 40px;
+
+    @media screen and (max-width: $tablet){
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .info {
+
+      @media screen and (max-width: $tablet){
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      max-width: 300px;
+      margin-right: 150px;
+      margin-bottom: 30px;
+
+      .header-info {
+        color: white;
+        @media screen and (max-width: $tablet){
+          font-size: 16px;
+          margin-top: 10px;
+        }
+      }
+      .divider {
+        width: 30px;
+        height: 1px;
+        background: white;
+        margin: 15px 0
+      }
+    }
+  }
+
+  .divider {
+    width: 80%;
+    height: 1px;
+    background: #515255;
+  }
+
+  .links {
+    margin-top: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: $tablet){
+      flex-direction: column;
+    }
+    & > div {
+      @media screen and (max-width: $tablet){
+        margin-top: 10px;
+      }
+      a {
+        margin-right: 20px;
+
+      }
+    }
+  }
+}
