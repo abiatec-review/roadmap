@@ -1,9 +1,9 @@
 import Messages from "./Messages";
 import SearchInput from "../SearchInput";
-
-import './style.scss'
 import Notifications from "./Notifications";
 import Account from "./Account";
+
+import './style.scss'
 
 const UserHeader = () => {
     return (

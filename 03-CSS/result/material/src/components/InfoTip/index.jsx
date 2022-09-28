@@ -1,7 +1,6 @@
 import './style.scss'
 
 const InfoTip = ({num, desc, icon, bg}) => {
-    console.log(icon)
     return (
         <div className={'infotip'} style={{background: bg}}>
             <div className={'img'}>

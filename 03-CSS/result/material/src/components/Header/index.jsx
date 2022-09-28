@@ -1,5 +1,5 @@
-import './style.scss'
 import {Button} from "@mui/material";
+import './style.scss'
 
 export const Header = () => {
     return (

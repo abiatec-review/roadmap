@@ -1,12 +1,12 @@
 export const messages = [
     {
         key: 1,
-        name: 'Domnic Harris',
+        name: 'Dominic Harris',
         message: 'I think its a good idea, lets do it then.'
     },
     {
         key: 2,
-        name: 'Domnic Harris',
+        name: 'Dominic Harris',
         message: 'Hey, lets have a cricket match this sunday, what you say?'
     },
     {

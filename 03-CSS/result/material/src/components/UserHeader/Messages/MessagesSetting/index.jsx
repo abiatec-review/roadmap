@@ -1,3 +1,4 @@
+import {useState} from "react";
 import {
     Divider,
     IconButton,
@@ -9,7 +10,6 @@ import NotificationImportantOutlinedIcon from '@mui/icons-material/NotificationI
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
-import {useState} from "react";
 
 import './style.scss'
 

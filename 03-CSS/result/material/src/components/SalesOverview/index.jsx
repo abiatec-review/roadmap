@@ -1,9 +1,7 @@
 import {useState} from "react";
-import {Area, CartesianGrid, AreaChart, Tooltip, XAxis, ResponsiveContainer} from "recharts";
+import {Area, CartesianGrid, AreaChart, Tooltip, ResponsiveContainer} from "recharts";
 import {Button, Card, CardActions, CardContent} from "@mui/material";
-
 import {CHART_STATE, resultState} from "./constants";
-
 import './style.scss'
 
 export const SalesOverview = () => {
@@ -21,8 +19,8 @@ export const SalesOverview = () => {
 
     return (
         <div className='sales-overview'>
-            <Card sx={{ minWidth: 275 }}>
-                <CardContent>
+            <Card sx={{ minWidth: 275 }} >
+                <CardContent >
                     <div className="header">
                         <h2>Sales overview</h2>
                         <CardActions>
@@ -30,10 +28,10 @@ export const SalesOverview = () => {
                             <Button color="secondary" variant='contained' size="small" onClick={() => setChartState(CHART_STATE.YEARLY)}>{CHART_STATE.YEARLY}</Button>
                         </CardActions>
                     </div>
-                    <ResponsiveContainer width={'100%'} height={192}>
+                    <ResponsiveContainer width={'100%'} height={200}>
                         <AreaChart
                             data={resultState[chartState]}
-                            margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
+                            margin={{ top: 0, right: 0, left: 0, bottom: 0 }}
                         >
                             <CartesianGrid horizontal={false} strokeDasharray="3 3" />
                             <Tooltip content={CustomToolTip} />

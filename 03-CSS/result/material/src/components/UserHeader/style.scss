@@ -2,8 +2,14 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  @media screen and (max-width: 1000px){
+    justify-content: flex-end;
+  }
   .search-block {
     width: 320px;
+    @media screen and (max-width: 1000px){
+      display: none;
+    }
   }
   .input {
     width: 100%;

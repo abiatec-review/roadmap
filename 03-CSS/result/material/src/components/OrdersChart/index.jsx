@@ -1,13 +1,8 @@
-import {useState} from "react";
-import {Area, CartesianGrid, AreaChart, Tooltip, XAxis, ResponsiveContainer} from "recharts";
-import {Button, Card, CardActions, CardContent} from "@mui/material";
-
-import './style.scss'
+import {Area, CartesianGrid, AreaChart, Tooltip, ResponsiveContainer} from "recharts";
+import {Card, CardContent} from "@mui/material";
 import {data} from "./constants";
+import './style.scss'
 
-const state = [
-    190, 200, 300,400
-]
 export const OrdersChart = () => {
     const CustomToolTip = ({payload}) => {
         return (
@@ -20,12 +15,17 @@ export const OrdersChart = () => {
 
     return (
         <div className='order-charts'>
-            <Card sx={{ minWidth: 275 }} className={'card'}>
+            <Card sx={{ minWidth: 275, height: 110 }} className={'card'}>
+                <div className="header">
+                    <h2>Orders</h2>
+                    <div>293</div>
+                </div>
                 <CardContent>
-                    <ResponsiveContainer width={'100%'} height={192}>
+                    <ResponsiveContainer width={'100%'} height={65}>
                         <AreaChart
+                            height={65}
                             data={data}
-                            margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
+                            margin={{ top: 0, right: 0, left: 0, bottom: 0 }}
                         >
                             <CartesianGrid horizontal={false} vertical={false} strokeDasharray="3 3" />
                             <Tooltip content={CustomToolTip} />

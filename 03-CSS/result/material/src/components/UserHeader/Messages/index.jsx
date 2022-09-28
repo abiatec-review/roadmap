@@ -1,16 +1,17 @@
-import './style.scss'
+import {useState} from "react";
 import {
     IconButton,
     Menu,
 } from "@mui/material";
-
-import {useState} from "react";
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 
 import MessagesMenu from "./MessagesMenu";
 import MessagesSetting from "./MessagesSetting";
 
+import './style.scss'
+
 const Messages = () => {
+
     const [anchorEl, setAnchorEl] = useState(null);
     const [isSettings, setIsSettings] = useState(false)
     const open = Boolean(anchorEl);
@@ -22,7 +23,6 @@ const Messages = () => {
             setAnchorEl(null);
         }
     };
-
     const openSettings = () => {
         setIsSettings(true)
     }
@@ -45,7 +45,6 @@ const Messages = () => {
                 open={open}
                 onClose={handleClose}
                 onClick={handleClose}
-
                 transformOrigin={{ horizontal: 'right', vertical: 'top' }}
                 anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
             >

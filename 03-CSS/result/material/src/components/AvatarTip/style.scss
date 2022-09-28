@@ -1,0 +1,36 @@
+.avatartip {
+  display: flex;
+  background: white;
+  width: 180px;
+  height: 66px;
+  border-radius: 12px;
+  position: relative;
+  padding: 30px 0 30px 70px;
+  overflow: hidden;
+  box-shadow: rgb(115 82 199 / 18%) 0px 0.5rem 1.25rem;
+  .img {
+    background: rgb(0, 196, 180);;
+    padding: 86px;
+    border-radius: 50%;
+    position: absolute;
+    top: -46px;
+    left: -80px;
+
+    .avatar {
+      position: relative;
+      left: 37px;
+      top: -6px;
+    }
+  }
+  .text {
+    margin-left: 15px;
+    position: relative;
+    left: 88px;
+    max-width: 40px;
+    font-size: 14px;
+    div:nth-child(1) {
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+  }
+}

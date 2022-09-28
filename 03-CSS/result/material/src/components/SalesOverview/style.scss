@@ -1,9 +1,10 @@
 .sales-overview {
   font-family: NoirPro, Arial, serif;
-  width: 50%;
 
+  .css-46bh2p-MuiCardContent-root:last-child {
+    padding: 0;
+  }
   .tooltip {
-
     background: white;
     padding: 12px;
     border-radius: 5px;
@@ -36,6 +37,7 @@
       font-weight: 400;
       color: rgb(55, 55, 60);
       font-size: 18px;
+      padding-left: 16px;
     }
   }
 
