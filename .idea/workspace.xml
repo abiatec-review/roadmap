@@ -37,6 +37,7 @@
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/real-time/client/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/real-time/client/src/reportWebVitals.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/real-time/client/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test1/test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/test1" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/test1" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -53,6 +60,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2CbzEIQ0q4Jy8c5XYaP8rGzuXWO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -64,7 +74,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ryzenpc/ilyawork/testgit",
+    "last_opened_file_path": "/home/ryzenpc/ilyawork/road/roadmap-frontend/03-CSS",
     "nodejs_package_manager_path": "yarn",
     "vue.rearranger.settings.migration": "true"
   }
@@ -89,6 +99,8 @@
       <workItem from="1660031038539" duration="599000" />
       <workItem from="1661936864885" duration="108000" />
       <workItem from="1662022309685" duration="32000" />
+      <workItem from="1662106206612" duration="3382000" />
+      <workItem from="1662365892035" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="add gh-pages link">
       <created>1659086389366</created>

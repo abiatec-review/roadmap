@@ -20,11 +20,11 @@ const FirstQuestion: React.FC<IFirstQuestion> = ({handleSubmit, register, setIsS
     }
     return (
         <section className="firstQ">
-            <h3>Choose fruits you like</h3>
+            <h3 className='h3-element'>Choose fruits you like</h3>
             <form className="form">
                 <label>
                     Banana
-                    <input type="checkbox" value="Banana" {...register("fruits")} />
+                    <input data-testid="first-input"  type="checkbox" value="Banana" {...register("fruits")} />
                 </label>
                 <label>
                     Apple
@@ -42,8 +42,8 @@ const FirstQuestion: React.FC<IFirstQuestion> = ({handleSubmit, register, setIsS
                     Pear
                     <input type="checkbox" value="Pear" {...register("fruits")} />
                 </label>
-                {errors?.fruits?.message && <span className={'error-span'}>{errors?.fruits?.message as ReactNode}</span>}
-                <button disabled={!!errors?.fruits?.message} className={`${errors?.fruits?.message && 'disabledBtn'}`}  onClick={handleSubmit(onSubmit)} >Next question</button>
+                {errors?.fruits?.message && <span data-testid="error-text" className={'error-span'}>{errors?.fruits?.message as ReactNode}</span>}
+                <button data-testid="btn" disabled={!!errors?.fruits?.message} className={`${errors?.fruits?.message && 'disabledBtn'}`}  onClick={handleSubmit(onSubmit)} >Next question</button>
             </form>
         </section>
 

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<DocumentFragment>
+  <section
+    class="firstQ"
+  >
+    <h3>
+      Choose fruits you like
+    </h3>
+    <form
+      class="form"
+    >
+      <label>
+        Banana
+        <input
+          name="fruits"
+          type="checkbox"
+          value="Banana"
+        />
+      </label>
+      <label>
+        Apple
+        <input
+          name="fruits"
+          type="checkbox"
+          value="Apple"
+        />
+      </label>
+      <label>
+        Watermelon
+        <input
+          name="fruits"
+          type="checkbox"
+          value="Watermelon"
+        />
+      </label>
+      <label>
+        Pineapple
+        <input
+          name="fruits"
+          type="checkbox"
+          value="Pineapple"
+        />
+      </label>
+      <label>
+        Pear
+        <input
+          name="fruits"
+          type="checkbox"
+          value="Pear"
+        />
+      </label>
+      <button
+        class="undefined"
+      >
+        Next question
+      </button>
+    </form>
+  </section>
+</DocumentFragment>
+`;

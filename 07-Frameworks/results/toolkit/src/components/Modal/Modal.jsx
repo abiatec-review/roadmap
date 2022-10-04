@@ -19,7 +19,7 @@ function Modal({children, closeModal, isModal}) {
 
     if(isModal) {
         return createPortal(
-            <div className='h-screen w-screen bg-slate-300/[.6] fixed inset-0 overflow-auto' onClick={closeModal}>
+            <div className='h-screen w-screen bg-slate-300/[.6] fixed inset-0' onClick={closeModal}>
                 <div  className='flex items-center justify-center flex-col'>
                     {children}
                 </div>

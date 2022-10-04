@@ -13,19 +13,19 @@ const FirstQuestion: React.FC<IFirstQuestion> = ({changeQ, values}) => {
             <Form>
                 <h3>Choose fruits you like</h3>
                 <div className="form">
-                    <label>
+                    <label data-cy='first-label'>
                         Banana
                         <Field type="checkbox" name="checked" value="Banana" />
                     </label>
-                    <label>
+                    <label data-cy='first-label-apple'>
                         Apple
                         <Field type="checkbox" name="checked" value="Apple" />
                     </label>
-                    <label>
+                    <label data-cy='first-label-pineapple'>
                         Pineapple
                         <Field type="checkbox" name="checked" value="Pineapple" />
                     </label>
-                    <label>
+                    <label data-cy='first-label-pear'>
                         Pear
                         <Field type="checkbox" name="checked" value="Pear" />
                     </label>
@@ -35,6 +35,7 @@ const FirstQuestion: React.FC<IFirstQuestion> = ({changeQ, values}) => {
                 disabled={!values.checked.length}
                 className={`button ${!values.checked.length && 'disabledBtn'}`}
                 onClick={changeQ}
+                data-cy='next-q'
             >
                 Next question
             </button>

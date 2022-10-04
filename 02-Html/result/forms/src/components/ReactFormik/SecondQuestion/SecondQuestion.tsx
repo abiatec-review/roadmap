@@ -11,7 +11,7 @@ const SecondQuestion: React.FC<ISecondQuestion> = ({values}) => {
         <Form className='secondQ'>
             <h3>Choose your favorite anime</h3>
             <div className="form">
-                <label>
+                <label data-cy='second-label'>
                     Naruto
                     <Field type="radio" name="anime" value="Naruto" />
                 </label>
