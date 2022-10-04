@@ -6,6 +6,8 @@
     <mapping directory="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/11-Web-sockets/results/chat/client" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/11-Web-sockets/results/real-time/client" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/12-SSR" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/12-SSR/results/next" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/test1" vcs="Git" />
   </component>
 </project>

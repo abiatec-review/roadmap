@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc99c7b8-2959-43a5-b4a8-3b577bc11195" name="Default Changelist" comment="add gh-pages link">
+      <change afterPath="$PROJECT_DIR$/12-SSR/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-SSR/.idea/12-SSR.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-SSR/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-SSR/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-SSR/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-SSR/next/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-SSR/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-Html/result/forms/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/02-Html/result/forms/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-Html/result/forms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/02-Html/result/forms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-Html/result/forms/src/components/ReactFormik/FirstQuestion/FirstQuestion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/02-Html/result/forms/src/components/ReactFormik/FirstQuestion/FirstQuestion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-Html/result/forms/src/components/ReactFormik/SecondQuestion/SecondQuestion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/02-Html/result/forms/src/components/ReactFormik/SecondQuestion/SecondQuestion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-Html/result/forms/src/components/ReactHookForm/FirstQuestion/FirstQuestion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/02-Html/result/forms/src/components/ReactHookForm/FirstQuestion/FirstQuestion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-Html/result/forms/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/02-Html/result/forms/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/11-Web-sockets/results/canvas/frontend/package.json" afterDir="false" />
@@ -37,7 +50,6 @@
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/real-time/client/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/real-time/client/src/reportWebVitals.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/11-Web-sockets/results/real-time/client/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test1/test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +62,7 @@
         <entry key="$PROJECT_DIR$/test1" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/test1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/12-SSR" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -74,7 +86,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ryzenpc/ilyawork/road/roadmap-frontend/03-CSS",
+    "last_opened_file_path": "/home/ryzenpc/ilyawork/road",
     "nodejs_package_manager_path": "yarn",
     "vue.rearranger.settings.migration": "true"
   }
@@ -101,6 +113,8 @@
       <workItem from="1662022309685" duration="32000" />
       <workItem from="1662106206612" duration="3382000" />
       <workItem from="1662365892035" duration="22000" />
+      <workItem from="1664884938141" duration="258000" />
+      <workItem from="1664885437377" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="add gh-pages link">
       <created>1659086389366</created>
