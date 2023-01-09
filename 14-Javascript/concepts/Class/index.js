@@ -3,3 +3,5 @@
 // TODO https://www.typescriptlang.org/docs/handbook/classes.html
 // TODO https://www.youtube.com/watch?v=BASquaxab_w
 // TODO https://www.youtube.com/watch?v=uLY9GXGMXaA
+
+// Read about comparing classes and fabric function https://habr.com/ru/company/ruvds/blog/352198/

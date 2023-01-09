@@ -10,4 +10,4 @@
 // Что такое CDN? TODO https://www.youtube.com/watch?v=ngyOYuTrUk8&t=152s
 // Что такое REST? TODO https://www.youtube.com/watch?v=ovV8GhIkzBE&t=352s
 // Что такое IP-адрес? TODO https://www.youtube.com/watch?v=70VnuTXi4Wk&t=720s
-// Разница между URI и URL? TODO https://www.youtube.com/watch?v=70VnuTXi4Wk&t=844s
+// Разница между URI и URL? TODO https://www.youtube.com/watch?v=70VnuTXi4Wk&t=844s , https://habr.com/ru/post/667120/
