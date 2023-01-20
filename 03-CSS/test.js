@@ -9,3 +9,10 @@
 
 //Используя Tailwind css сверстать навбар и первые три графика (Apex-chart | Rechart)
 // https://preview.themeforest.net/item/mosaic-tailwind-css-admin-dashboard-template/full_screen_preview/34690839?_ga=2.215948951.1616364837.1656341266-1213331814.1645626464
+
+
+// What is the CSS Box model and what are its elements?
+// What is the float property of CSS and how to fix overflowing of the float element?
+// What is the purpose of the z-index and how is it used?
+// Explain the difference between visibility: hidden and display: none?
+
